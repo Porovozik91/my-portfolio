@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --header-bg: #f9fafb;
+  --header-text: #1f2937;
+  --primary: #3b82f6;
+  --button-bg: #e5e7eb;
+  --button-text: #111827;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #f9fafb;
+  --header-bg: #1f2937;
+  --header-text: #f9fafb;
+  --primary: #60a5fa;
+  --button-bg: #374151;
+  --button-text: #f9fafb;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
